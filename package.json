@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --output public",
     "start": "next start"
   },
   "dependencies": {
@@ -18,7 +18,6 @@
     "nprogress": "^0.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-scripts": "^5.0.1",
     "react-toastify": "^6.0.8",
     "react-transition-group": "^4.4.1",
     "react-youtube": "^7.14.0"
@@ -26,8 +25,5 @@
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "tailwindcss": "^1.4.6"
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
