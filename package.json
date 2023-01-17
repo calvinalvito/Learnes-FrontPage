@@ -26,5 +26,8 @@
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "tailwindcss": "^1.4.6"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
